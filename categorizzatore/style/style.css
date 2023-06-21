@@ -1,3 +1,7 @@
+@font-face {
+    font-family: armanistyle;
+    src: url(BodoniFLF.ttf);
+}
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
@@ -14,7 +18,7 @@ nav {
     top: 0;
 }
 nav > h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: armanistyle;
     color: white;
     font-size: 8vw;
     margin: 0;
@@ -33,15 +37,14 @@ footer {
 footer > h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 4vw;
-    color: gray;
+    color: rgb(175, 175, 175);
     margin: 0;
-    padding-bottom: 1vw;
+    padding-bottom: 20px;
     text-align: center;
     justify-self: center;
 }
-
 div {
-    background-color: aliceblue;
+    background: transparent;
     flex-direction: horizontal;
     max-height: fit-content;
     margin-bottom: 3vw;
@@ -50,14 +53,17 @@ div {
     display: flex;
 }
 div.mirror {
-    background-color: beige;
+    background: transparent;
     justify-content: center;
     align-content: center;
-    border-radius: 2vw;
+    border-radius: 20px;
     width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 img {
-    border-radius: 10vw;
-    width: 90%;
-    height: auto;
+    border-radius: 30px;
+    width: 275px;
+    height: 300px;
+   object-fit: scale-down;
 }
