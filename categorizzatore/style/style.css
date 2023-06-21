@@ -1,0 +1,63 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+body {
+    overflow-x: hidden;
+}
+nav {
+    background-color: black;
+    height: fit-content;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+nav > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 8vw;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-self: center;
+}
+footer {
+    background-color: black;
+    height: fit-content;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+footer > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    color: gray;
+    margin: 0;
+    padding-bottom: 1vw;
+    text-align: center;
+    justify-self: center;
+}
+
+div {
+    background-color: aliceblue;
+    flex-direction: horizontal;
+    max-height: fit-content;
+    margin-bottom: 3vw;
+    margin-top: 5vw;
+    width: 100vw;
+    display: flex;
+}
+div.mirror {
+    background-color: beige;
+    justify-content: center;
+    align-content: center;
+    border-radius: 2vw;
+    width: fit-content;
+}
+img {
+    border-radius: 10vw;
+    width: 90%;
+    height: auto;
+}
