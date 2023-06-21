@@ -1,2 +1,1 @@
-# LLama-AI
-Llama AI and machine learning
+# ML Tris
