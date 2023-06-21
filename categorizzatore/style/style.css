@@ -47,10 +47,15 @@ div {
     background: transparent;
     flex-direction: horizontal;
     max-height: fit-content;
-    margin-bottom: 3vw;
-    margin-top: 5vw;
     width: 100vw;
     display: flex;
+}
+div#firstDiv {
+    margin-top: 9vw;
+    margin-bottom: 1vw;
+}
+div#secondDiv {
+    margin-bottom: 5vw;
 }
 div.mirror {
     background: transparent;
